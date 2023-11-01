@@ -1,0 +1,134 @@
+[
+    {
+        "_id": {
+            "$oid": "60a3adaab55b731d46d37832"
+        },
+        "id_artikla": {
+            "$oid": "60a39694024dfb13aa1e9b31"
+        },
+        "ime_prezime": "Jovan Jovanovic",
+        "broj_artikala": {
+            "$numberInt": "5"
+        },
+        "datum_isp": {
+            "$date": {
+                "$numberLong": "1613858400000"
+            }
+        },
+        "datum_nar": {
+            "$date": {
+                "$numberLong": "1613649962317"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "60a3b03636da421df75ec0ac"
+        },
+        "id_artikla": {
+            "$oid": "60a39694024dfb13aa1e9b30"
+        },
+        "ime_prezime": "Petar Nikolic",
+        "broj_artikala": {
+            "$numberInt": "2"
+        },
+        "datum_isp": {
+            "$date": {
+                "$numberLong": "1622412000000"
+            }
+        },
+        "datum_nar": {
+            "$date": {
+                "$numberLong": "1621340214863"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "60a3ca54550017204a8497cd"
+        },
+        "id_artikla": {
+            "$oid": "60a396a6024dfb13aa1e9b32"
+        },
+        "ime_prezime": "Jelena Krstic",
+        "broj_artikala": {
+            "$numberInt": "2"
+        },
+        "datum_isp": {
+            "$date": {
+                "$numberLong": "1616709600000"
+            }
+        },
+        "datum_nar": {
+            "$date": {
+                "$numberLong": "1616076499995"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "60a3cd7f550017204a8497ce"
+        },
+        "id_artikla": {
+            "$oid": "60a396a6024dfb13aa1e9b32"
+        },
+        "ime_prezime": "Bojana Ilic",
+        "broj_artikala": {
+            "$numberInt": "2"
+        },
+        "datum_isp": {
+            "$date": {
+                "$numberLong": "1622498400000"
+            }
+        },
+        "datum_nar": {
+            "$date": {
+                "$numberLong": "1621347711437"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "60a3daccf9517422284952ab"
+        },
+        "id_artikla": {
+            "$oid": "60a396d4024dfb13aa1e9b35"
+        },
+        "ime_prezime": "Ivana Katic",
+        "broj_artikala": {
+            "$numberInt": "2"
+        },
+        "datum_isp": {
+            "$date": {
+                "$numberLong": "1612216800000"
+            }
+        },
+        "datum_nar": {
+            "$date": {
+                "$numberLong": "1610983116306"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "60a3dc32f8b14c23b5e29c39"
+        },
+        "id_artikla": {
+            "$oid": "60a396ba024dfb13aa1e9b33"
+        },
+        "ime_prezime": "Boris Vasic",
+        "broj_artikala": {
+            "$numberInt": "2"
+        },
+        "datum_isp": {
+            "$date": {
+                "$numberLong": "1619820000000"
+            }
+        },
+        "datum_nar": {
+            "$date": {
+                "$numberLong": "1618759474361"
+            }
+        }
+    }
+]

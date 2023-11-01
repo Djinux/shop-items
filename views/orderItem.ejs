@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display of items in the store</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        <script src="/js/validation.js"></script>
+    </head>
+    <body>
+        <h1>Molimo Vas da popunite formular!</h1>
+        <form id="order_item" method="POST" action="/order/orderingItem">
+
+            <div class="form-group">
+                <label for="item_id">Identifikator proizvoda:</label>
+                <input type="text" name="item_id" id="item_id" value="<%= item_id %>" class="field" readonly>
+            </div>  
+            <div class="form-group">
+                <label for="first_last_name">Ime i prezime:</label>
+                <input type="text" name="first_last_name" id="first_last_name" class="field">
+            </div> 
+            <div class="form-group">
+                <label for="number_of_items">Broj artikala:</label>
+                <input type="text" name="number_of_items" id="number_of_items" class="field">
+            </div>  
+            <div class="form-group">
+                <label for="shipping_date">Datum isporuke:</label>
+                <input type="text" name="shipping_date" id="shipping_date" class="field" placeholder="Datum unesite u sledecem formatu: g/mm/dd">
+            </div>  
+
+            <input type="submit" value="Naruci proizvod">
+        </form>
+    </body>
+</html>

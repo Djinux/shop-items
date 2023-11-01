@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Status porudzbine</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/statusStyle.css">
+    </head>
+    <body>
+        <h1>Status vase porudzbine</h1>
+        <% if(success){ %>
+            <p>Uspesno ste narucili proizvod!</p>
+            <script>
+                function startCountdown () {
+                    setTimeout(function (){
+                        document.location = '/item';
+                    }, 10000);
+                }
+                startCountdown();
+            </script>
+        <% } else { %>
+            <p>Postoji problem sa vasom porudzbinom: <%= reason %></p>
+            <a href="/item">Pocetna strana</a>
+        <% } %>
+    </body>
+</html>

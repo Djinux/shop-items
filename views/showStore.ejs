@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display of items in the store</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Kupujte sa nama!</h1>
+        <% for(let item of items) { %>
+            <div class="item">
+                <table>
+                    <tr>
+                        <th style="width: 50%;">Naziv</th>
+                        <th style="width: 25%;">Cena</th>
+                        <th style="width: 25%;">Broj artikala</th>
+                    </tr>
+                    <tr>
+                        <td><%= item.naziv %></td>
+                        <td><%= item.cena %></td>
+                        <td><%= item.broj_artikala %></td>
+                    </tr>
+                </table>
+    
+                <form method="GET" action="/order/make">
+                    <input type="hidden" name="item_id" value="<%= item._id%>">
+                    <input type="submit" value="Naruci proizvod">
+                </form>
+            </div>
+        <% } %>
+    </body>
+</html>
