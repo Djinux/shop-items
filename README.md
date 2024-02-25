@@ -10,7 +10,7 @@ This app allows you to order items from the shop.
 
 ```bash
 npm install --global nodemon
-git clone 
+git clone git@github.com:Djinux/shop-items.git
 npm install
 ```
 5. Install `MongoDB Community Edition`. Follow instructions on [link](https://www.mongodb.com/docs/manual/administration/install-community/)
